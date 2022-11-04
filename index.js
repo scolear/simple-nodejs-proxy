@@ -8,8 +8,8 @@ const app = express();
 // Configuration
 const PORT = 3999;
 const HOST = "localhost";
-const NODE_1 = "http://btc-mocknet.dlc.link";
-const NODE_2 = "http://34.239.248.83";
+const NODE_1 = "http://stx-btc1.dlc.link";
+const NODE_2 = "http://electrs-btc2.dlc.link";
 
 // Logging
 app.use(morgan('dev'));
